@@ -1,12 +1,14 @@
 body{
-    background-color: rgba(77, 74, 74, 0.658);/* Cor do plano de fundo */
+    background-color: rgba(177, 80, 80, 0.658);/* Cor do plano de fundo */
+    background-image: url("../Imagens/arena.jpg");  
+    background-size: 100%;
+    background-repeat: repeat;
     color: #000; /* Cor da fonte */
     font-size: 20px; /* Tamanho da Fonte */
     margin: 0;  /*margem em relação a tela */
 }/* Comentários */
  
 header{
-    border: 2px solid #000;
     text-align: center;
     text-decoration: none;
 }/* Seletor do cabeçalho */
@@ -29,7 +31,6 @@ li:hover{
     font-size: 30px;
     font-family: 'Trebuchet MS'; /* Definir uma fonte */
     border: 10px solid #888;
-    background-image: url("../IMAGENS/civic2.jpg");
 }/* Modifica o conteudo original da Tag */
  
  
@@ -101,5 +102,5 @@ a{
  
 p{
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }
