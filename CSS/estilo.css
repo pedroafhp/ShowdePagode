@@ -49,11 +49,39 @@ aside{
     width: 70%; /*Altura*/
     height: 50%; /*Largura*/
 }
+
+.imgFtd{
+    /*Formatar a imagem */
+    width: 70%; /*Altura*/
+    height: 50%; /*Largura*/
+}
+
+.imgCsa{
+    /*Formatar a imagem */
+    width: 90%; /*Altura*/
+    height: 55%; /*Largura*/
+}
  
 .galeria{
     display: grid; /*Formato de visualização*/
     grid-template-columns: 30% 30% 30%; /* Quantidade de coluna*/
     grid-template-rows: 50% 50% 50%; /* Quantidade de linhas e tamanho*/
+    grid-gap: 1%; /* espaço entre os contatos*/
+    margin-left: 5%; /*Margem do Lado Esquerdo */
+}
+
+.cardapio{
+    display: grid; /*Formato de visualização*/
+    grid-template-columns: 30% 30% 30%; /* Quantidade de coluna*/
+    grid-template-rows: 100% 100% 100%; /* Quantidade de linhas e tamanho*/
+    grid-gap: 1%; /* espaço entre os contatos*/
+    margin-left: 5%; /*Margem do Lado Esquerdo */
+}
+
+.espaco{
+    display: grid; /*Formato de visualização*/
+    grid-template-columns: 30% 30% 30%; /* Quantidade de coluna*/
+    grid-template-rows: 100% 100% 100%; /* Quantidade de linhas e tamanho*/
     grid-gap: 1%; /* espaço entre os contatos*/
     margin-left: 5%; /*Margem do Lado Esquerdo */
 }
@@ -96,6 +124,16 @@ a{
     font-weight: bold;
     color: #fff;
     background-color: #000;
+    font: 130%;
+    border-radius: 60%;
+}
+
+.borda{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: bold;
     font: 130%;
     border-radius: 60%;
 }
